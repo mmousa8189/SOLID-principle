@@ -54,4 +54,10 @@ The name open–closed principle has been used in two ways. Both ways use genera
 
 - A module will be said to be closed if [it] is available for use by other modules. This assumes that the module has been given a well-defined, stable description (the interface in the sense of information hiding).
 
+The open closed principle
+it talks about the idea of being open to extension but closed modification,
+So our and we really focus on the accounts part of this the account dot create,
+So our accounts class initially when we started making those changes we changed everything okay we we modify as we had if statements and switch statements and we're changing things left and right or making or introducing bugs and all the rest but when we went back and kind of redesign up a piece of this application,
+So we actually didn't modify some things but once we did now our accounts class doesn't have to change ever unless there's a bug and instead now it's closed for modification but it's open for extension.
+
 -------------------------------------------------------------
