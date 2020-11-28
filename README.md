@@ -2,6 +2,8 @@
 
 The pourpuse for thate to learn SOLID-principle.
 
+when you're writing code are you doing it right that's the question that worries a lot of people and should probably be at least something you think about design patterns are best-practice concepts that we can implement into our code to make it better in some way think of them as guardrails to keep our codes safe.
+
 ## Getting started with SOLID-principle using "C#"
 
 This is an overview of what solid-principles are, and why a developer might want to use it.
@@ -59,5 +61,15 @@ it talks about the idea of being open to extension but closed modification,
 So our and we really focus on the accounts part of this the account dot create,
 So our accounts class initially when we started making those changes we changed everything okay we we modify as we had if statements and switch statements and we're changing things left and right or making or introducing bugs and all the rest but when we went back and kind of redesign up a piece of this application,
 So we actually didn't modify some things but once we did now our accounts class doesn't have to change ever unless there's a bug and instead now it's closed for modification but it's open for extension.
+
+practice practice practice the more you practice this the better off you'll get the more comfortable you will be starting off with OCP already in your code and it also SRP don't forget that one so these two things imp main your code will be cleaner leave it'll be more streamlined
+
+-------------------------------------------------------------
+
+## Liskov Substitution Principle
+
+The Liskov Substitution Principle defines some guidelines for maintaining inheritor substitution. Passing an object’s inheritor in place of the base class shouldn’t break any existing functionality in the called method. You should be able to substitute all implementations of a given interface with each other.
+
+C# doesn’t allow modifying return types or parameter types in overriding methods (even if the return type is an inheritor of the return type in the base class). Therefore, it won’t struggle with the most common substitution violations: contravariance of method arguments (overriders must have the same or base types of parent methods) and covariance of return types (return types in overriding methods must be the same or an inheritor of the return types in the base class).
 
 -------------------------------------------------------------
