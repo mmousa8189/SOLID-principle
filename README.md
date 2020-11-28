@@ -16,7 +16,7 @@ Reference related to the source code and explanation of the lesson please follow
 
 ### Table of Contents
 
-- [S.O.L.I.D Overview](#solid_o_verview)
+- [S.O.L.I.D Overview](#solid_overview)
 - [Single Responsibility Principle](#single_responsibility_principle)
 - [The Open Closed Principle](#the_open_closed_principle)
 - The Liskov Substitution Principle
