@@ -16,9 +16,9 @@ Reference related to the source code and explanation of the lesson please follow
 
 ### Table of Contents
 
-- [S.O.L.I.D Overview](https://github.com/mmousa8189/SOLID-principle/blob/master/README.md#single-responsibility-principle)
+- [S.O.L.I.D Overview](https://github.com/mmousa8189/SOLID-principle/blob/master/README.md#solid-overview)
 - [Single Responsibility Principle](https://github.com/mmousa8189/SOLID-principle/blob/master/README.md#single-responsibility-principle)
-- [The Open Closed Principle](https://github.com/mmousa8189/SOLID-principle/blob/master/README.md#single-responsibility-principle)
+- [The Open Closed Principle](https://github.com/mmousa8189/SOLID-principle/blob/master/README.md#the-open-closed-principle)
 - The Liskov Substitution Principle
 - The Interface Segregation Principle
 - The Dependency Inversion Principle
