@@ -41,6 +41,9 @@ There have been some fantastic software development principles captured under th
 ## Single Responsibility Principle
 
 There should never be more than one reason for change anything in software entities (class,function, file etc). A class, function, file etc should have only one reason to change.
+
+**A class should only have a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.**
+
 > "Just because you can, doesn't mean you should"  
 
 -------------------------------------------------------------
@@ -70,7 +73,21 @@ practice practice practice the more you practice this the better off you'll get 
 
 The Liskov Substitution Principle defines some guidelines for maintaining inheritor substitution. Passing an object’s inheritor in place of the base class shouldn’t break any existing functionality in the called method. You should be able to substitute all implementations of a given interface with each other.
 
+**Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.**
+
 >covariance and contravariance:
 >C# doesn’t allow modifying return types or parameter types in overriding methods (even if the return type is an inheritor of the return type in the base class). Therefore, it won’t struggle with the most common substitution violations: contravariance of method arguments (overriders must have the same or base types of parent methods) and covariance of return types (return types in overriding methods must be the same or an inheritor of the return types in the base class).
+
+-------------------------------------------------------------
+
+## Interface segregation principle
+
+The principle states that no client should be forced to depend on methods that it doesn't use. A
+client should never be forced to implement an interface that it doesn't use or client shouldn't be
+forced to depend on methods that they don't use.
+
+**Many client-specific interfaces are better than one general-purpose interface.**
+
+Each interface should have a specific purpose. You shouldn’t be forced to implement an interface when your object doesn’t share that purpose. By extrapolation, the larger the interface, the more likely it includes methods that not all implementers can achieve. That’s the essence of the Interface Segregation Principle.
 
 -------------------------------------------------------------
