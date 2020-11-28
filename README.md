@@ -1,5 +1,7 @@
 # SOLID-principle
 
+The pourpuse for thate to learn SOLID-principle.
+
 ## Getting started with SOLID-principle using "C#"
 
 This is an overview of what solid-principles are, and why a developer might want to use it.
@@ -14,9 +16,9 @@ Reference related to the source code and explanation of the lesson please follow
 
 ### Table of Contents
 
-- S.O.L.I.D Overview
-- Single Responsibility Principle
-- The Open Closed Principle
+- [S.O.L.I.D Overview](#solid_o_verview)
+- [Single Responsibility Principle](#single_responsibility_principle)
+- [The Open Closed Principle](#the_open_closed_principle)
 - The Liskov Substitution Principle
 - The Interface Segregation Principle
 - The Dependency Inversion Principle
@@ -37,8 +39,19 @@ There have been some fantastic software development principles captured under th
 ## Single Responsibility Principle
 
 There should never be more than one reason for change anything in software entities (class,function, file etc). A class, function, file etc should have only one reason to change.
-> "Just because you can, doesn't mean you should"
+> "Just because you can, doesn't mean you should"  
 
 -------------------------------------------------------------
 
 ## The Open Closed Principle
+
+Software entities (class, modules, functions etc).
+**should be open for extension but closed for modification**.
+that is, such an entity can allow its behaviour to be extended without modifying its.
+The name open–closed principle has been used in two ways. Both ways use generalizations (for instance, inheritance or delegate functions) to resolve the apparent dilemma, but the goals, techniques, and results are different.
+
+- A module will be said to be open if it is still available for extension. For example, it should be possible to add fields to the data structures it contains, or new elements to the set of functions it performs.
+
+- A module will be said to be closed if [it] is available for use by other modules. This assumes that the module has been given a well-defined, stable description (the interface in the sense of information hiding).
+
+-------------------------------------------------------------
