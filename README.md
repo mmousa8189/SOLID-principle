@@ -70,6 +70,7 @@ practice practice practice the more you practice this the better off you'll get 
 
 The Liskov Substitution Principle defines some guidelines for maintaining inheritor substitution. Passing an object’s inheritor in place of the base class shouldn’t break any existing functionality in the called method. You should be able to substitute all implementations of a given interface with each other.
 
-C# doesn’t allow modifying return types or parameter types in overriding methods (even if the return type is an inheritor of the return type in the base class). Therefore, it won’t struggle with the most common substitution violations: contravariance of method arguments (overriders must have the same or base types of parent methods) and covariance of return types (return types in overriding methods must be the same or an inheritor of the return types in the base class).
+>covariance and contravariance:
+>C# doesn’t allow modifying return types or parameter types in overriding methods (even if the return type is an inheritor of the return type in the base class). Therefore, it won’t struggle with the most common substitution violations: contravariance of method arguments (overriders must have the same or base types of parent methods) and covariance of return types (return types in overriding methods must be the same or an inheritor of the return types in the base class).
 
 -------------------------------------------------------------
